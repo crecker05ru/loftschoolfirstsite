@@ -2,14 +2,20 @@
   "name": "loft",
   "version": "1.0.0",
   "description": "Abduragimov Anvar",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "Anvar",
   "license": "ISC",
   "dependencies": {
+    "lodash": "^4.17.20",
     "normalize.css": "^8.0.1",
     "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "webpack": "^5.3.0",
+    "webpack-cli": "^4.1.0"
   }
 }
