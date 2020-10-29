@@ -1,14 +1,152 @@
-h1 {
-    color:blueviolet;
-  }
-
-  html{
+ html {
     height: 100%;
   }
 
-  body {
+body {
 height: 100%;
 background: url(img/pattern.png) repeat;
-font:normal 1em 'fira_sanslight';
+font: normal 1em 'fira_sanslight';
 color: #4a545d;
   }
+ /*футер*/
+  .page-footer {
+    background: #eff3f7 url(./img/line_footer.png) no-repeat;
+    font-family: 'fira_sanslight';
+    color:#4a545d ;
+    opacity: 0.5;
+  }
+  .page-footer .container {
+    padding-top:23 px;
+    position:relative;
+  }
+
+  .page-footer .copyright {
+    margin: 0 180px;
+    padding-top: 7px;
+    text-align:center;
+    font-size: 13px ;
+  }
+
+  .page-footer .lock{
+    position: absolute;
+    top: 26px;
+    left: 20px
+  }
+
+  .lock .lock-inner {
+    display: block;
+    height: 40px;
+    font-family: 'fira_sansbook';
+    font-size: 16px;
+    line-height: 2.2;
+    color: #4a545d;
+    text-decoration: none;
+    background: #eff3f7;
+    padding-left: 24px;
+  }
+  .lock .lock-inner:hover {
+    text-decoration: underline;
+    background: #eff3f7;
+  }
+  .container {
+    width: 960px;
+    margin: auto;
+  }
+
+.text-center {
+  text-align: center;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+
+.container:before, .clearfix:before,
+.container:after, .clearfix:after {
+  content: "";
+  display: table;
+}
+.container:after, .clearfix:after {
+  clear: both;
+}
+
+/* прибьем футер к низу */
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  min-width: 970px;
+  height: auto!important;
+  overflow: hidden;
+}
+.wrapper:after {
+  content: "";
+  height: 80px;
+  display: block;
+}
+.page-footer {
+  min-width: 970px;
+  height: 80px;
+  margin-top:-80px ;
+}
+/* шапка */
+.container-big {
+  max-width: 1200px;
+  min-width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.page-header {
+  height: 119px;
+  background: #eff3f7 url('./img/line.png') bottom center no-repeat;
+  position: relative;
+  margin-bottom: 39px;
+}
+.page-header .header-logo-link {
+  position: absolute;
+  top: 39px;
+  left: 0;
+}
+.page-header .header-logo-text {
+  position: absolute;
+  left: -9999px;
+}
+
+/*блок социальных ссылок*/
+.socials{
+  margin: 0;
+  padding: 0;
+  min-width: 260px;
+}
+
+.socials .socials-item {
+  list-style: none;
+  display: inline-block;
+  height: 47px;
+  width: 47px;
+  margin-left: 19px;
+}
+/*Отступ у таких элементов всегда слева*/
+.socials .socials-item:firs-child {
+  margin-left: 0;
+}
+/*у первого элемента обнуляем отступ*/
+
+.socials .socials-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-indent: -9999px;
+  background: url(./img/socialbut.png) no-repeat; /*url*/
+
+}
+
+.socials .socials-link.vk {background-position: -2px -3px; }
+.socials .socials-link.tw {background-position: -71px -3px; }
+.socials .socials-link.fb {background-position: -140px -3px; }
+.socials .socials-link.gt {background-position: -209px -3px; }
+.socials .socials-link.hover {background-position-y: -65px; }
+/*конец блока соц ссылок*/
