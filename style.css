@@ -13,21 +13,21 @@ color: #4a545d;
     background: #eff3f7 url(./img/line_footer.png) no-repeat;
     font-family: 'fira_sanslight';
     color:#4a545d ;
-    opacity: 0.5;
+
   }
   .page-footer .container {
-    padding-top:23 px;
+    padding-top: 23px;
     position:relative;
   }
 
   .page-footer .copyright {
     margin: 0 180px;
     padding-top: 7px;
-    text-align:center;
+    text-align: center;
     font-size: 13px ;
   }
 
-  .page-footer .lock{
+  .page-footer .lock {
     position: absolute;
     top: 26px;
     left: 20px
@@ -41,12 +41,12 @@ color: #4a545d;
     line-height: 2.2;
     color: #4a545d;
     text-decoration: none;
-    background: #eff3f7;
+    background: url('./img/lock-close.png') no-repeat;
     padding-left: 24px;
   }
   .lock .lock-inner:hover {
     text-decoration: underline;
-    background: #eff3f7;
+    background: url(./img/lock-open.png) no-repeat;
   }
   .container {
     width: 960px;
@@ -57,10 +57,10 @@ color: #4a545d;
   text-align: center;
 }
 .pull-left {
-  float: left;
+  float: left ;
 }
 .pull-right {
-  float: right;
+  float: right ;
 }
 
 .container:before, .clearfix:before,
@@ -79,7 +79,7 @@ color: #4a545d;
   min-height: 100%;
   min-width: 970px;
   height: auto!important;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .wrapper:after {
   content: "";
