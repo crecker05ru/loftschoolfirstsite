@@ -146,12 +146,26 @@ color: #4a545d;
   width: 100%;
   text-indent: -9999px;
   background: url(./img/socialbut.png) no-repeat; /*url*/
-
 }
 
-.socials .socials-link.vk {background-position: -2px -3px; }
-.socials .socials-link.tw {background-position: -71px -3px; }
-.socials .socials-link.fb {background-position: -140px -3px; }
-.socials .socials-link.gt {background-position: -209px -3px; }
-.socials .socials-link.hover {background-position-y: -65px; }
+.socials .socials-link.vk {background-position: 0px 0px; }
+.socials .socials-link.vk:hover {
+  background: url(./img/socialhover.png) no-repeat;
+  background-position: 0px 0px
+}
+.socials .socials-link.tw {background-position: -71px 0px; }
+.socials .socials-link.tw:hover {
+  background: url(./img/socialhover.png) no-repeat;
+  background-position: -71px 0px
+}
+.socials .socials-link.fb {background-position: -142px 0px; }
+.socials .socials-link.fb:hover {
+  background: url(./img/socialhover.png) no-repeat;
+  background-position: -142px 0px
+}
+.socials .socials-link.gt {background-position: -213px 0px; }
+.socials .socials-link.gt:hover {
+  background: url(./img/socialhover.png) no-repeat;
+  background-position: -213px 0px
+}
 /*конец блока соц ссылок*/
