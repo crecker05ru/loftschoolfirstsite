@@ -49,7 +49,7 @@
     padding: 0;
     margin: 0;
 }
-.worksheet-info:{
+.worksheet-info{
     float: left;
     margin-left: 25px;
     max-width: 260px;
@@ -62,7 +62,7 @@
     font-size: 16px;
     float: left;
 }
-.worksheet-info:{
+.worksheet-info{
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
     overflow: hidden;
